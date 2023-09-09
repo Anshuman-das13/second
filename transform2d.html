@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tranform-2d</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 300px;
+            background-color: red;
+            margin: 150px 150px;
+            /* transform:rotate(60deg); */
+            /* transform-origin: left top; */
+            transition-property: all;
+            transition-duration: 1s;
+            transition-delay: 0.5s;
+            transition-timing-function:ease-in-out
+        }
+        .box:hover{
+            transform:scale(0.70,0.70);    
+            /* transform-origin: center; */
+            height: 250px;
+            width: 350px;
+            /* margin: 300px 300px; */
+            background-color: green;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Anshuman Das</div>
+    
+</body>
+</html>
